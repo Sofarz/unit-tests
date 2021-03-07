@@ -3,7 +3,6 @@ export const isEmpty = (stringArrayOrObject) => {
 
   if (type === 'string') {
     return stringArrayOrObject === ''
-  }
-
+  } 
   return false
 }
